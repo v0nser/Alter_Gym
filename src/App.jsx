@@ -8,7 +8,7 @@ import Contacts from './Pages/Contacts/Contacts'
 import NavBar from './Components/Navbar/Navbar'
 import Join from './Pages/Register/Register'
 import FreeTrial from './Pages/Free-Trial/FreeTrial'
-import PrimeHeader from './Components/PrimeHeader/Primeheader'
+// import PrimeHeader from './Components/PrimeHeader/Primeheader'
 import Footer from './Components/Footer/Footer'
 function App() {
 
