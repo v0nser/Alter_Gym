@@ -1,0 +1,27 @@
+.contactsss{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: url(../../assets/images/contact/contact-gym.svg);
+    background-repeat: no-repeat;
+}
+
+.contxt{
+    color: #fbfbfb;
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    margin-top: 42%;
+}
+
+p.y, p.l{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.FORM{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}

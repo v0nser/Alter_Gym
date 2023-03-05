@@ -1,0 +1,125 @@
+.parent{
+    background-image: url(../../assets/images/Rectangle9.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.parent1{
+    background-image: url(../../assets/images/Rectangle8.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.child1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    width:15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secstart{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1.5%;
+}
+
+.child5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.child6{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.body{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 480px) {
+    .child2{    
+    display: flex;
+    width: 5%;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .rec3{
+        display: flex;
+        width: 80px;
+        height: 5px;
+    }
+    .ell8, .ell9, .ell10{
+        display: flex;
+        width: 5px;
+        height: 5px;
+    }
+    .child4{
+        display: flex;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .child6{
+        width: 65%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: auto;
+    }
+}

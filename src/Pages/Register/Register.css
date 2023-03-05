@@ -1,0 +1,40 @@
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.pr1{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
+}
+
+.form2{
+    display: flex;
+    justify-content: center;
+}
+
+.pr2{
+ display: flex;
+ justify-content: center;
+ font-size: x-small;
+}
+.pr3{
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+}
+.pr4{
+    display: flex;
+    justify-content: center;
+    font-size: x-small; 
+}

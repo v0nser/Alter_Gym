@@ -1,0 +1,47 @@
+
+.foot{
+    background-color: #4300AF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.5%;
+}
+
+.footxt{
+    color: #fbfbfb;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.fooimg{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+}
+
+@media (max-width: 480px){
+    .foot{
+        background-color: #4300AF;
+        display: flex;
+        width:100vw;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footxt{
+        color: #fbfbfb;
+        font-weight: bold;
+        font-size: large;
+        text-align: center;
+    }
+    .fooimg{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

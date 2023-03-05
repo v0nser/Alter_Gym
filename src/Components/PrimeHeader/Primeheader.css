@@ -1,0 +1,41 @@
+.primeHeader{
+    position: relative;
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    top: 0px;
+    padding: 15px !important;
+}
+
+.ph{
+    width: auto;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.lrn{
+    color: #FF5E0E;
+}
+
+.phone{
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    .primeHeader {
+      flex-wrap: wrap;
+    }
+    .ph {
+      width: 100%;
+      text-align: center;
+      padding-left: 0;
+    }
+    .phone {
+      width: 100%;
+      text-align: center;
+    }
+}
